@@ -5,12 +5,12 @@
 
 int main(int argc, char*argv[])
 {
-	if (argc == 2 && argv[1] == "/?")
+	if (argc == 2 && argv[1] == "/\?")
 	{
 		std::cout << "\t\tHelp:\n"
 			<< "PP_lab3.exe <processes count> <iterations count>\n"
 			<< "PP_lab3.exe /? - to print help\n";
-		return EXIT_SUCCESS;
+		return 1;
 	}
 	else if(argc == 3)
 	{
@@ -42,6 +42,6 @@ int main(int argc, char*argv[])
 		std::cout << "Incorrect arguments: Use \"/?\" to get help." << "\n";
 	}
 	
-	return EXIT_FAILURE;
+	return 0;
 }
 
