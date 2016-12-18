@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Processes">
+      <UniqueIdentifier>{4acab817-7096-426e-a2f6-dfda13a3ba4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calculator">
+      <UniqueIdentifier>{7e8e95ba-33a1-4f94-a263-1e6fce1b08c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipe">
+      <UniqueIdentifier>{c7d1f62a-df3c-4ffb-9fba-768955c7d6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipe\Messages">
+      <UniqueIdentifier>{c48863d8-f9f6-467b-a1e7-0137001cdb75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProcessData.h">
+      <Filter>Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessAgregator.h">
+      <Filter>Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="PiMonteCarloCalculator.h">
+      <Filter>Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="NamedPipe.h">
+      <Filter>Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="IPipe.h">
+      <Filter>Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageAgregator.h">
+      <Filter>Pipe\Messages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProcessAgregator.cpp">
+      <Filter>Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessData.cpp">
+      <Filter>Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="PiMonteCarloCalculator.cpp">
+      <Filter>Calculator</Filter>
+    </ClCompile>
+    <ClCompile Include="PP_lab3.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="NamedPipe.cpp">
+      <Filter>Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageAgregator.cpp">
+      <Filter>Pipe\Messages</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
